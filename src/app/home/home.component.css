@@ -1,0 +1,20 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: rgb(196,122,91);
+    background: linear-gradient(307deg, rgba(196,122,91,1) 0%, rgba(60,60,186,1) 35%, rgba(48,130,186,1) 43%, rgba(83,225,140,1) 100%);
+}
+
+.card{
+    margin: 10px;
+    width: 500px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background: rgb(34,193,195);
+    background: linear-gradient(307deg, rgb(139, 226, 227) 0%, rgb(242, 138, 78) 100%);
+}
